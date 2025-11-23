@@ -1,0 +1,46 @@
+.resultCard {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.resultLabel {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+}
+
+.resultValue {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Courier New', monospace;
+  color: var(--text-primary);
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeText {
+  color: var(--accent-color);
+}
+
+.errorText {
+  color: var(--error-color);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 639px) {
+  .resultValue {
+    font-size: 2rem;
+    min-height: 3rem;
+  }
+
+  .errorText {
+    font-size: 1rem;
+  }
+}

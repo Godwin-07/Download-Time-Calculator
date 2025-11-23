@@ -1,0 +1,30 @@
+.inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.inputRow {
+  display: flex;
+  gap: 12px;
+}
+
+.numberInput {
+  flex: 1;
+  min-width: 0;
+}
+
+.unitSelect {
+  flex-shrink: 0;
+  min-width: 100px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 639px) {
+  .inputRow {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .unitSelect {
+    width: 100%;
+  }
+}

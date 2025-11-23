@@ -1,0 +1,42 @@
+.calculatorCard {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  color: var(--text-primary);
+}
+
+.resetButton {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 639px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .calculatorCard {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  .calculatorCard {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .calculatorCard {
+    max-width: 800px;
+  }
+}
